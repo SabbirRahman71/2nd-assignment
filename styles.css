@@ -317,8 +317,10 @@ p.adress {
   font-weight: 800;
   margin: 0rem;
 }
+/* extra section  */
 .motto {
   font-size: 2rem;
+  margin-top: 5rem;
   text-align: center;
 }
 .happy-client {
@@ -379,6 +381,7 @@ footer {
   padding-bottom: 3rem;
   text-align: center;
 }
+
 /* mobile devices  */
 @media screen and (max-width: 600px) {
   header {
@@ -429,6 +432,7 @@ footer {
   }
   h3.destination-title {
     font-size: 1.5rem;
+    margin-top: 4rem;
   }
   .photo-collage {
     display: flex;
