@@ -63,7 +63,7 @@ nav {
       rgba(19, 19, 24, 0.8) 0%,
       rgba(19, 19, 24, 0) 100%
     ),
-    url(../Images/banner.png);
+    url(Images/banner.png);
 
   width: 100%;
   height: 31rem;
@@ -164,31 +164,31 @@ h3.destination-title {
   border-radius: 1rem;
 }
 .grid-image-1 {
-  background-image: url(/Images/Rectangle\ 5.png);
+  background-image: url(Images/Rectangle\ 5.png);
   grid-column: span 5;
 }
 .grid-image-2 {
-  background-image: url(/Images/Rectangle\ 8.png);
+  background-image: url(Images/Rectangle\ 8.png);
   grid-column: span 5;
 }
 .grid-image-3 {
-  background-image: url(/Images/Rectangle\ 6.png);
+  background-image: url(Images/Rectangle\ 6.png);
   grid-column: span 3;
 }
 .grid-image-4 {
-  background-image: url(/Images/Rectangle\ 7.png);
+  background-image: url(Images/Rectangle\ 7.png);
   grid-column: span 4;
 }
 .grid-image-5 {
-  background-image: url(/Images/Rectangle\ 9.png);
+  background-image: url(Images/Rectangle\ 9.png);
   grid-column: span 3;
 }
 .grid-image-6 {
-  background-image: url(/Images/Rectangle\ 11.png);
+  background-image: url(Images/Rectangle\ 11.png);
   grid-column: span 4;
 }
 .grid-image-7 {
-  background-image: url(/Images/Rectangle\ 10.png);
+  background-image: url(Images/Rectangle\ 10.png);
   grid-column: span 6;
 }
 .choose-us-title {
