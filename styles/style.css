@@ -6,6 +6,15 @@ body {
   font-family: "Mulish", sans-serif;
 }
 /* shared style  */
+.btn-primary {
+  height: 3.4rem;
+  color: #fff;
+  background: #ff5400;
+  cursor: pointer;
+  min-width: 20%;
+  border: 0;
+  border-radius: 0.5rem;
+}
 .secondary-clr {
   color: #ff5400;
 }
@@ -93,15 +102,141 @@ nav {
   border: 0;
   min-width: 20%;
 }
-.btn-primary {
-  height: 3.4rem;
-  color: #fff;
-  background: #ff5400;
-  cursor: pointer;
-  min-width: 20%;
-}
-/* main section  */
 
+/* main section  */
+main {
+  padding: 3.5rem 8rem;
+}
+.tour {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.tour-text {
+  width: 50%;
+}
+.tour-title {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.tour-title p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.tour-image > img {
+  width: 100%;
+  height: 100%;
+}
+h3.destination-title {
+  color: #131318;
+  margin-top: 8rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.destination-text {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.photo-collage {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 1.5rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+.collage > p {
+  padding-top: 110px;
+}
+.collage {
+  width: 100%;
+  height: 18rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+}
+.grid-image-1 {
+  background-image: url(/Images/Rectangle\ 5.png);
+  grid-column: span 5;
+}
+.grid-image-2 {
+  background-image: url(/Images/Rectangle\ 8.png);
+  grid-column: span 5;
+}
+.grid-image-3 {
+  background-image: url(/Images/Rectangle\ 6.png);
+  grid-column: span 3;
+}
+.grid-image-4 {
+  background-image: url(/Images/Rectangle\ 7.png);
+  grid-column: span 4;
+}
+.grid-image-5 {
+  background-image: url(/Images/Rectangle\ 9.png);
+  grid-column: span 3;
+}
+.grid-image-6 {
+  background-image: url(/Images/Rectangle\ 11.png);
+  grid-column: span 4;
+}
+.grid-image-7 {
+  background-image: url(/Images/Rectangle\ 10.png);
+  grid-column: span 6;
+}
+.choose-us-title {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  color: #131318;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.description {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.choose-us-image {
+  width: 4rem;
+  height: 4rem;
+}
+.choose-title {
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.hotels,
+.services,
+.best-price {
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.horizontal {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.hotels {
+  background: rgba(251, 181, 99, 0.05);
+}
+.services {
+  background: rgba(41, 206, 246, 0.05);
+}
+.best-price {
+  background: rgba(233, 68, 68, 0.05);
+  margin: auto;
+  width: 50%;
+}
 /* mobile devices  */
 @media screen and (max-width: 576px) {
   header {
@@ -138,9 +273,47 @@ nav {
     gap: 1.2rem;
     width: 60%;
   }
+  main {
+    padding: 0rem 3rem;
+  }
+  .tour {
+    flex-direction: column;
+  }
+  .tour-text {
+    width: 100%;
+  }
+  .tour-title {
+    font-size: 1.5rem;
+  }
+  h3.destination-title {
+    font-size: 1.5rem;
+  }
+  .photo-collage {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+  }
+  .choose-us-title {
+    font-size: 1.5rem;
+  }
+  .horizontal {
+    flex-direction: column;
+  }
+  .best-price {
+    width: auto;
+  }
+  .choose-description {
+    color: #5a5a5d;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
 }
 /* medium devices  */
 @media screen and (min-width: 576px) and (max-width: 960px) {
+  header {
+    padding: 1rem 4rem;
+  }
   nav {
     flex-direction: column;
     padding-top: 1rem;
@@ -162,5 +335,20 @@ nav {
     line-height: normal;
     margin: auto;
     font-size: 0.8rem;
+  }
+  .tour {
+    flex-direction: column;
+  }
+  .tour-title {
+    font-size: 1.5rem;
+  }
+  .tour-text {
+    width: 100%;
+  }
+  main {
+    padding: 1rem 4rem;
+  }
+  h3.destination-title {
+    font-size: 2rem;
   }
 }
