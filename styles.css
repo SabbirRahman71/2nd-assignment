@@ -379,6 +379,9 @@ footer {
   margin-right: 8rem;
   background: #d6d6d6;
 }
+.social-icon {
+  color: black;
+}
 .copyright {
   color: #131318;
   font-size: 1rem;
